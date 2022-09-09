@@ -20,57 +20,46 @@
     <p>
         Mrudula E
     </p>
-<div>
-    <p>Thanks for playing NumberTricks.</p>
-    <p id="demo"></p>
-</div>
+
 <h3>JavaScript new Date()</h3>
     <p id="demo"></p>
-    
-    <h4>The prompt() Method</h4>
-
-    <p><a href="https://mrudula-e.github.io/Lab3/">Click here to play again!</a></p>
-    
-     
+                  
    <h5>HTML Image</h5>
-   
-    <p>
-    Lucky number 7 is even the basis for many myths and folklore. <br>Ancient beliefs from around the world believed that the seventh son 
-    of the seventh son would be gifted with magical powers (both good and evil).<br>The term magic number has multiple meanings.<br> It could refer to one of the following:
-    Unique values with unexplained meaning or multiple occurrences which could (preferably) be replaced with named constants
-    A constant numerical or text value used to identify a file format or protocol; for files, see List of file signatures
-    Distinctive unique values that are unlikely to be mistaken for other meanings (e.g., Globally Unique Identifiers)
-    </p>
       
-   
-    
-             
+                         
     <script>
-                      
-        var num = prompt("Choose any number and add 9 to it", " ");//prompt method displays dialogue box to take input .
+                    
+        var num =  prompt("Choose any number", " ");//prompt method displays dialogue box to take input .
+        
+        
         if(num!=null)
         
             {
 
         var n=parseInt(num);//to convert the value into integer type
+
+        var n=(n)
+        document.write('<h1> <i><center>I picked my number<i> <br><span id = "result"></span>'+n+' </center></h1>');
+        alert(n);
+
         var n1=(n+9)
-        document.write('<h1> <i><center>Choose any number and add 9 to it<i> <br><span id = "result"></span>'+n1+' </center></h1>');
+        document.write('<h1> <i><center>I add 9 to '+n+' <i> <br><span id = "result"></span> The new number is '+n1+' </center></h1>');
             alert(n1);//it displays an alert box with answer.
 
         var n2=(n1*2)
-        document.write('<h1> <i><center>Multiply this number by 2<i> <br><span id = "result"></span>'+n2+' </center></h1>');
+        document.write('<h1> <i><center>I Multiplied '+n1+' by 2<i> <br><span id = "result"></span> The new number is '+n2+' </center></h1>');
             alert(n2);//it displays an alert box with answer.
 
         var n3=(n2-4)    
-        document.write('<h1> <i><center>Subtract 4<i> <br><span id = "result"></span>'+n3+' </center></h1>');
+        document.write('<h1> <i><center>I Subtracted 4 from '+n2+' <i> <br><span id = "result"></span> The new number is '+n3+' </center></h1>');
             alert(n3);//it displays an alert box with answer.
 
         var n4=(n3/2)
-        document.write('<h1> <i><center>Divide the remainder by 2<i> <br><span id = "result"></span>'+n4+' </center></h1>');
+        document.write('<h1> <i><center>I Divided '+n3+' by 2<i> <br><span id = "result"></span> The new number is '+n4+' </center></h1>');
             alert(n4);//it displays an alert box with answer.
 
        var n5=(n4-n) //it will calculate the lucky number
-       document.write('<h1> <i><center>Subtract the number you first picked<i> <br><span id = "result"></span>'+n5+' </center></h1>');//to display the result on output screen
+       document.write('<h1> <i><center>I Subtracted '+n4+' by the original number '+n+' <i> <br><span id = "result"></span>Your final number is '+n5+' </center></h1>');//to display the result on output screen
             alert(n5);//it displays an alert box with answer.
                     
             }
@@ -80,6 +69,19 @@
         document.getElementById("demo").innerHTML = d;
         
     </script>
+<h4>The prompt() Method</h4>
+<div>
+    <p>Thanks for playing NumberTricks.</p>
+    <p id="demo"></p>
+</div>
+<p><a href="https://mrudula-e.github.io/Lab3/">Click here to play again!</a></p>
+<p>
+    Lucky number 7 is even the basis for many myths and folklore. <br>Ancient beliefs from around the world believed that the seventh son 
+    of the seventh son would be gifted with magical powers (both good and evil).<br>The term magic number has multiple meanings.<br> It could refer to one of the following:
+    Unique values with unexplained meaning or multiple occurrences which could (preferably) be replaced with named constants
+    A constant numerical or text value used to identify a file format or protocol; for files, see List of file signatures
+    Distinctive unique values that are unlikely to be mistaken for other meanings (e.g., Globally Unique Identifiers)
+    </p>
 
         <p><a href="https://mrudula-e.github.io/Lab2/">Click here for your Portofolio Web Page !</a></p>
         <p><a href="https://mrudula-e.github.io/Lab3b/">Click here for Test Score App page!</a></p>              
