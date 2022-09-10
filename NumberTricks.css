@@ -1,13 +1,17 @@
 
 
+
+
 body {
-   
     background-color: lightblue;
     color: var(--fontColor);
-    font-family: helvetica;
+    font-family: 'Times New Roman', Times, serif;
     color: blue;
+    justify-content: left;
+    text-align: var(--left);
   }
   h2 {
+    
     text-align: center;
     background-color: darkgoldenrod;
     color: brown;
@@ -16,21 +20,22 @@ body {
     padding: 30px;
     justify-content: center;
   }
-  h3{
-    color:blueviolet
-  }
-  h4{
-    color:blueviolet
-  }
-  h5{
-    color:blueviolet
-  }
-
-  li {
-    
+    h1{
+      font-weight: 100;
+      text-align: left;
+      justify-content: left;
+      color: black;
+      
+    }
+  
+  
+  div{
+    text-align: center;
     justify-content: center;
+    color: crimson;
   }
   p {
+      
        margin: 50px;
        font-family: helvetica;
        font-weight: bold;
@@ -40,8 +45,7 @@ body {
     display: flex;
     border-radius: 80%;
     justify-content: center;
-    float:right;
-    
+    float: top right;
     margin-left: auto;
     margin-right: auto;
     width: 500px;
