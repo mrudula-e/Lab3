@@ -13,62 +13,66 @@
 </head>
     <body class="light-theme">
     <body> 
+        
+
     <h2>NumberTricks</h2>
 
-    <img src="NumberTrickPic.jpg"></id> 
+    
 
     <p>
         Mrudula E
     </p>
 
+    <img src="NumberTrickPic.jpg"></id> 
+
+
 
     <p id="demo"></p>
-                  
-   
-      
-                         
-    <script>
-                    
-        var num =  prompt("Choose any number", " ");//prompt method displays dialogue box to take input .
-        
-        
-        if(num!=null)
+
+
+                                                
+        <script>
+          
+            var num =  prompt("Choose any number", " ");//prompt method displays dialogue box to take input .
+     
+            if(num!=null)
         
             {
 
-        var n=parseInt(num);//to convert the value into integer type
+            var n=parseInt(num);//to convert the value into integer type
 
-        var n=(n)
-        document.write('<h1> <i><center>I picked my number<i> <br><span id = "result"></span>'+n+' </center></h1>');
-        alert(n);
+            var n=(n)
+            document.write('<h1> <i><center>I picked my number <i> <span id = "result"></span>'+n+' </center></h1>');
+            alert(n);
 
-        var n1=(n+9)
-        document.write('<h1> <i><center>I add 9 to '+n+' <i> <br><span id = "result"></span> The new number is '+n1+' </center></h1>');
+            var n1=(n+9)
+            document.write('<h1> <i><center>I added 9 to '+n+' <i> <br><span id = "result"></span> The new number is '+n1+' </center></h1>');
             alert(n1);//it displays an alert box with answer.
 
-        var n2=(n1*2)
-        document.write('<h1> <i><center>I Multiplied '+n1+' by 2<i> <br><span id = "result"></span> The new number is '+n2+' </center></h1>');
+            var n2=(n1*2)
+            document.write('<h1> <i><center>I Multiplied '+n1+' by 2<i> <br><span id = "result"></span> The new number is '+n2+' </center></h1>');
             alert(n2);//it displays an alert box with answer.
 
-        var n3=(n2-4)    
-        document.write('<h1> <i><center>I Subtracted 4 from '+n2+' <i> <br><span id = "result"></span> The new number is '+n3+' </center></h1>');
+            var n3=(n2-4)    
+            document.write('<h1> <i><center>I Subtracted 4 from '+n2+' <i> <br><span id = "result"></span> The new number is '+n3+' </center></h1>');
             alert(n3);//it displays an alert box with answer.
 
-        var n4=(n3/2)
-        document.write('<h1> <i><center>I Divided '+n3+' by 2<i> <br><span id = "result"></span> The new number is '+n4+' </center></h1>');
+            var n4=(n3/2)
+            document.write('<h1> <i><center>I Divided '+n3+' by 2<i> <br><span id = "result"></span> The new number is '+n4+' </center></h1>');
             alert(n4);//it displays an alert box with answer.
 
-       var n5=(n4-n) //it will calculate the lucky number
-       document.write('<h1> <i><center>I Subtracted '+n4+' by the original number '+n+' <i> <br><span id = "result"></span>Your final number is '+n5+' </center></h1>');//to display the result on output screen
+            var n5=(n4-n) //it will calculate the lucky number
+            document.write('<h1> <i><center>I Subtracted '+n4+' by the original number '+n+' <i> <br><span id = "result"></span>Your final number is '+n5+' </center></h1>');//to display the result on output screen
             alert(n5);//it displays an alert box with answer.
                     
             }
-              document.getElementById("demo").innerHTML = "Thanks for using average test score app.";
+
+            document.getElementById("demo").innerHTML = "Thanks for using average test score app.";
             
-        const d = new Date();
-        document.getElementById("demo").innerHTML = d;
+            const d = new Date();
+            document.getElementById("demo").innerHTML = d;
         
-    </script>
+        </script>
 
 <div>
     <p>Thanks for playing NumberTricks.</p>
